@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("../images/lucas-calloch-P-yzuyWFEIk-unsplash.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.watchBody{
+   text-align: center;
+   width: 300px;
+   height: auto;
+   padding: 15px;
+   background-color: rgb(251, 255, 255);
+   border-radius: 6px ;
+}
+
+#timer{
+  margin-bottom: 10px;
+  font-size: 3.2rem;
+  color: tomato;
+}
+
+
+.buttonGroup{
+  margin: 20px;
+}
+
+#startBtn{
+  background-color: green;
+  padding: 8px 22px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+#pauseBtn{
+  background-color: orange;
+}
+
+#resetBtn{
+  background-color: red;
+  padding: 8px 22px;
+  border: none;
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+.icon{
+  color: white;
+  font-size: 38px;
+}
